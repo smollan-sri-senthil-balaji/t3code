@@ -5,6 +5,7 @@ import {
   CodexSettings,
   CursorSettings,
   GrokSettings,
+  JetskiSettings,
   OpenCodeSettings,
   PiSettings,
   ProviderDriverKind,
@@ -90,6 +91,11 @@ const PROVIDER_CLIENT_DEFINITIONS: readonly ProviderClientDefinition[] = [
     value: ProviderDriverKind.make("pi"),
     label: "Pi",
     settingsSchema: PiSettings,
+  },
+  {
+    value: ProviderDriverKind.make("jetski"),
+    label: "Jetski",
+    settingsSchema: JetskiSettings,
   },
   {
     value: ProviderDriverKind.make("acpRegistry"),

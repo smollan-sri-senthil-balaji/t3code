@@ -86,6 +86,11 @@
         { "range": ">=0.80.5", "status": "supported" },
         { "range": "<0.80.5", "status": "unsupported" }
       ]
+    },
+    {
+      "driver": "jetski",
+      "t3CodeRange": ">=0.0.46",
+      "ranges": [{ "range": ">=0.0.0", "status": "supported" }]
     }
   ],
   "currentModels": {
